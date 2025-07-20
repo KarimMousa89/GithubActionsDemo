@@ -25,6 +25,7 @@ jobs:
 
       - name: Build
         run: |
+          set -eo pipefail
           xcodebuild \
           -workspace SwiftUINavigation.xcworkspace \
           -scheme SwiftUINavigation \
