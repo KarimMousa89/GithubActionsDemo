@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct SwiftUINavigationApp: App {
-   
+   dsadas
     var body: some Scene {
         WindowGroup {
             NavigationContainer(delegate: RouterDelegate()) {
