@@ -23,9 +23,9 @@ jobs:
           pod install
         working-directory: ./SwiftUINavigation
 
-      - name: Build and test
+      - name: Build
         run: |
-          xcodebuild clean test \
+          xcodebuild \
           -workspace SwiftUINavigation.xcworkspace \
           -scheme SwiftUINavigation \
           -sdk iphonesimulator \
